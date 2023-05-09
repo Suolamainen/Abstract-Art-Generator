@@ -243,9 +243,9 @@ def menu():
                     elif stop_button.isOver(pos):
                         quit()
 
-                    elif isOver(screenwidth-screenwidth+40, screenheight-180, 170, 170, pos): webbrowser.open("https://github.com/FirePlank", autoraise=True)
-                    elif isOver(screenwidth-screenwidth+240, screenheight-150, 130, 106, pos): webbrowser.open("https://twitter.com/FirePlank", autoraise=True)
-                    elif isOver(screenwidth-screenwidth+405, screenheight-160, 130, 130, pos): webbrowser.open("https://discord.gg/K2Cf6ma", autoraise=True)
+                    elif isOver(screenwidth-screenwidth+40, screenheight-180, 170, 170, pos): webbrowser.open("https://github.com/Suolamainen", autoraise=True)
+                    elif isOver(screenwidth-screenwidth+240, screenheight-150, 130, 106, pos): webbrowser.open("https://twitter.com/@suola_", autoraise=True)
+                    elif isOver(screenwidth-screenwidth+405, screenheight-160, 130, 130, pos): webbrowser.open("https://discord.gg/twt", autoraise=True)
 
 
                 # Checks for mose movement
